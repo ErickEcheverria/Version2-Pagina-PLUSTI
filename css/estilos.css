@@ -1,0 +1,78 @@
+/*Inicio barra de navegacion*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,38,81);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 150px;
+    transition: padding-top 0.6s ease;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background: rgb(16,68,129);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+header h1{
+    font-size: 42px;
+    color: white;
+    line-height: 80px;
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+header h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header nav{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgba(45,171,227,0.8);
+}
+header nav a{
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header nav a:hover{
+    background: rgba(0, 0, 0, 0.5); 
+}
+/*Fin barra de navegacion*/
+h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 2;
+    color: black;
+}
+p{
+    margin-bottom: 2rem;
+    line-height: 2;
+    color: rgb(41, 38, 38);
+}
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+section{
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
