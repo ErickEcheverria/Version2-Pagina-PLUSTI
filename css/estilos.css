@@ -131,3 +131,12 @@ iframe{
     width: 90%;
     height: 150vh;
 }
+/*Barra Final*/
+.footer{
+    background: black;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    text-align: center;
+    color:white;
+}

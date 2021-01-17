@@ -1,0 +1,164 @@
+*{margin: 0; padding: 0;}
+.header{
+    width: 100%;
+    height: 70px;
+    position: static;
+}
+.container{
+    max-width: 100px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    line-height: 100px;
+    margin-top: 13px;
+}
+.menu{
+    text-align: center;
+    float: left;
+    line-height: 90px;
+    width: 100%;
+    background-color: #045184;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 500ms ease;
+}
+
+.menu a:hover{
+    background: #FFFFFF;
+    color: black;
+}
+.menu .submenu{
+    background: #3A669B;
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.footer{
+    background: black;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    text-align: center;
+    color:white;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+.fondo img{
+    width: 100%;
+}
+
+
+.calendario{
+    margin: 0 15% 0 15%;
+}
+.textocalendario h1{
+    color: black;
+    font-family: 'arial';
+    font-size: 35px;
+} 
+.textocalendario{
+    margin: 0 15% 0 15%;
+    text-align: center;
+     
+ }
+.textocalendario p{
+    text-align: justify;
+}
+
+
+
+
+
+
+.elearningservices{
+    margin: 0 15% 0 15%;
+}
+.elearningservices h1{
+    color:yellow;
+    font-family: 'arial';
+    font-size: 35px;
+}
+   
+.elearningservices p{
+text-align: justify;
+}
+
+
+
+
+.cursosq42020{
+    margin: 0 15% 0 15%;
+}
+
+.cursosq42020 h1{
+    color:yellow;
+    font-family: 'arial';
+    font-size: 35px;
+}
+   
+.cursosq42020 h1{
+    text-align: justify;
+}
+
+
+
+
+
+.podcast{
+    margin: 0 15% 0 15%;
+    background: 0,38,81;
+}
+
+.podcast h1{
+    color:black;
+    font-family: 'arial';
+    font-size: 35px;
+}
+.textopodcast{
+    margin: 0 15% 0 15%;
+}
+.podcast h1{
+    text-align: justify;
+}
+
+
+
+
+
+.eventos{
+    margin: 0 15% 0 15%;
+}
+.eventos h1{
+    color:black;
+    font-family: 'arial';
+    font-size: 35px;
+}
+.textoeventos{
+    margin: 0 15% 0 15%;
+}
+.eventos h1{
+    text-align: justify;
+}
+.imagenesm img{
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 25%;
+}
+
+body .contacto{
+    width: 400px;
+    margin: auto;
+    background-color: #E2ECEE;
+}
